@@ -1,19 +1,28 @@
 <script>
+	import { Router, Link, Route } from "svelte-routing";
+	import About from "./Pages/About.svelte";
+	import Portfolio from "./Pages/Portfolio.svelte";
+  import Home from "./Pages/home.svelte";
 </script>
 
 <div class="main">
   <div class="header">
+	  <Router>
     <nav>
       <ul>
-        <li href="">Logo</li>
-        <li href="portfolio">Portfolio</li>
-        <li href="about">About</li>
+       <li><img id="logo" src="code.png" alt="dawn"/></li>
+       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="/">Home</Link></li>
+       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="Portfolio">Portfolio</Link></li>
+       <li class="link"><Link style={"color: white; text-decoration: none;"}  to="About">About</Link></li>
       </ul>
     </nav>
-    <div class="intro">
-      <h3 class="name">-- Lucian Kallee</h3>
-      <h1>Hello my name is Lucian and I'm a fullstack developer.</h1>
-    </div>
+	<Route path="/" component="{Home}"></Route>
+    <Route path="About" component="{About}" />
+	<Route path="Portfolio" component="{Portfolio}" />
+</Router>
+
+	
+	  
   </div>
 </div>
 
@@ -22,17 +31,12 @@
   .header {
     font-family: 'Raleway', sans-serif;
 	color: #EEEEEE;
+	
   }
-
+  
   .main{
 	  height: 100vh;
 	  background-color: #222831;
-  }
-
-  .intro{
-	  padding: 90px;
-	  margin-top: 100px;
-	  margin-right:50%;
   }
 
   nav{
@@ -46,13 +50,20 @@
 	overflow: hidden;
 	display: flex;
 	flex-direction: row;
+	row-gap: 150px;
+  color: white;
   }
-   li{
-	   padding-left:30px ;
+   .link{
+	   padding-left:50px ;
 	   cursor: pointer;
+     text-decoration: none;
+     color: white;
    }
 
-   .name{
-	color: #00ADB5;
-   }
+  #logo{
+	  width: 50px;
+	  height: 50px;
+  }
+
+
 </style>

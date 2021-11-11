@@ -7,20 +7,20 @@
     <h1>Look at my applications.</h1>
   </div>
   <div class="apps">
-    <div class="app-item">
-      <img class="app-image " src="blog.png" alt="app" />
+   <div class="app-item">
+      <a href="w"><img class="app-image " src="blog.png" alt="app" /></a>
       <h3 class="project-name">Blog Website</h3>
       <h4 class="project-description">Reactjs, Firebase</h4>
     </div>
 
     <div class="app-item">
-      <img class="app-image" src="ChatApp.png" alt="app" />
+        <a href="w"><img class="app-image" src="ChatApp.png" alt="app" /></a>
       <h3 class="project-name">Chat App</h3>
       <h4 class="project-description">Nextjs, Chat-engine.io</h4>
     </div>
 
     <div class="app-item">
-      <img class="app-image" src="weather.png" alt="app" />
+        <a href="w"><img class="app-image" src="weather.png" alt="app" /></a>
       <h3 class="project-name">Weather App</h3>
       <h4 class="project-description">Nodejs, Ejs</h4>
     </div>
@@ -54,7 +54,7 @@
 
   .app-item{
      margin-left: 50px;
-     margin-right: 100px;
+     margin-right: 50px;
      text-align: center;
      background-color: white;
      border-radius: 7%;
@@ -63,9 +63,12 @@
   }
 
   .app-image{
-      width: 100%;
+      max-width: 100%;
       height: 70%;
       border-radius: 5%;
+  }
+  .app-image:hover {
+    filter: grayscale(100%) blur(2px);
   }
 
   .project-name{
@@ -76,5 +79,30 @@
       font-weight: 100;
       color: grey;
   }
+
+  @media (max-width: 1000px) {
+
+   .apps{
+       flex-direction: column;
+   }
+
+   .app-item {
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+
+   .Project {
+       background-color: #222831;
+       background-size: contain;
+   }
+
+   .collection {
+       padding: 50px;
+       padding-top: 0px;
+   }
+  }
+
+ 
+
 
 </style>

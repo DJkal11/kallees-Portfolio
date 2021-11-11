@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="Project">
+<div class="Project transition">
   <div class="collection">
     <h3 class="title">-- Projects</h3>
     <h1>Look at my applications.</h1>
@@ -79,6 +79,25 @@
       font-weight: 100;
       color: grey;
   }
+
+  .transition {
+    animation-name: fadeInUp;
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 
   @media (max-width: 1000px) {
 

@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 
-<div class="About-me">
+<div class="About-me transition">
   <div class="About">
     <h3 class="title">-- About Me</h3>
     <h1>
@@ -43,7 +43,7 @@
 
   .about-img{
     
-    max-width: 100%;
+    max-width: 120%;
     
   }
 
@@ -55,6 +55,25 @@
     font-size: 5rem;
   }
 
+  .transition {
+    animation-name: fadeInUp;
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
   @media (max-width: 1000px){
     .About-me{
       flex-direction: column;
@@ -65,6 +84,12 @@
       padding: 10px;
      margin-top: 20px;
     }
+
+    .about-img{
+    
+    max-width: 100%;
+    
+  }
 
   }
 

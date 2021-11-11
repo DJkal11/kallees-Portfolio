@@ -75,6 +75,7 @@
 	  height: 50px;
   }
 
+ 
   @media (max-width: 600px) {
     .link {
       padding-left: 20px;

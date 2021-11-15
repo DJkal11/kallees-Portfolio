@@ -8,19 +8,19 @@
   </div>
   <div class="apps">
    <div class="app-item">
-      <a href="w"><img class="app-image " src="blog.png" alt="app" /></a>
+      <a href="https://blogger-new-1e3ob7lzy-luciankallee-gmailcom.vercel.app/"><img class="app-image " src="blog.png" alt="app" /></a>
       <h3 class="project-name">Blog Website</h3>
       <h4 class="project-description">Reactjs, Firebase</h4>
     </div>
 
     <div class="app-item">
-        <a href="w"><img class="app-image" src="ChatApp.png" alt="app" /></a>
+        <a href="https://nextjs-chat-app-gules.vercel.app/"><img class="app-image" src="ChatApp.png" alt="app" /></a>
       <h3 class="project-name">Chat App</h3>
       <h4 class="project-description">Nextjs, Chat-engine.io</h4>
     </div>
 
     <div class="app-item">
-        <a href="w"><img class="app-image" src="weather.png" alt="app" /></a>
+        <a href="https://weather-with-you.herokuapp.com/"><img class="app-image" src="weather.png" alt="app" /></a>
       <h3 class="project-name">Weather App</h3>
       <h4 class="project-description">Nodejs, Ejs</h4>
     </div>

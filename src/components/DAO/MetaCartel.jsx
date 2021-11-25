@@ -2,8 +2,8 @@ import React from "react";
 
 function MetaCartel() {
     return (
-        <div className="h-screen transitionPage fixed">
-            <div className="text-center mt-40">
+        <div className="h-screen transitionPage fixed insight text-white">
+            <div className="text-center mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/hot.png" alt="#" />
             <h1 className="text-3xl p-2"><b>MetaCartel xDai</b></h1>
             </div>

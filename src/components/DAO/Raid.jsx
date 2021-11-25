@@ -3,7 +3,7 @@ import React from "react";
 function Raid() {
     return (
         <div className="h-screen transitionPage fixed text-center ml-20">
-            <div className="text-center mt-40">
+            <div className="text-center mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/sword.png" alt="#" />
             <h1 className="text-3xl p-2"><b>Raid Guild</b></h1>
             </div>

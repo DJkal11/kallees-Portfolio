@@ -3,7 +3,7 @@ import React from "react";
 function Raid() {
     return (
         <div className="h-screen transitionPage fixed text-center">
-            <div className=" mt-40">
+            <div className=" mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/cross.png" alt="#" />
             <h1 className="text-3xl p-2"><b>LexDAO</b></h1>
             </div>

@@ -6,7 +6,7 @@ import Lex from "./DAO/Lex";
 import MetaGama from "./DAO/Meta-Gamma-Delta";
 
 function Welcome() {
- const [ page, setPage ] = useState("");   
+ const [ page, setPage ] = useState("MetaCartel");   
 
 function SelectPage(event) {
  const name = event.target.id
@@ -54,7 +54,7 @@ function SelectPage(event) {
              
              <div className="border-l-2 border-gray-500">
               {page === "MetaCartel" &&
-                <MetaCartel/>
+                <MetaCartel/> 
               }
                {page === "MetaGama" &&
                 <MetaGama/>

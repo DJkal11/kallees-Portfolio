@@ -39,15 +39,15 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
 }
 
 .nav {
-  background-color: #D1E8E4;
+  background-color: #ffffff;
 }
 
 .DAO-item{
-  background-color: #C37B89;
+  background-color: hsl(335,76%,80%);
 }
 
 .insight{
-  background-color: #EAE7C6;
+  background-color: hsl(96,38%,54%);
 }
 
 .margin {

@@ -12,7 +12,6 @@ import Welcome from './components/welcome';
 import Explore from './components/explore';
 import Summon from './components/summon';
 import Help from './components/help';
-import Community from './components/community-links';
 import { useState } from 'react';
 
 
@@ -75,8 +74,6 @@ function App() {
           <Route path="/Summon" element={<Summon/>}/>
 
           <Route path="/Help" element={<Help/>}/>
-
-          <Route path="/Community" element={<Community/>}/>
            
         </Routes>
       </div>

@@ -2,26 +2,39 @@ import React from "react";
 
 function Welcome() {
     return (
-        <div className="-ml-96 display h-screen transitionPage">
+        <div className="-ml-96 display h-full transitionPage">
             <div className="grid grid-cols-2">
             <h1 className="mt-10">Hub</h1>
-            <button className="mt-10 w-36 p-2 border-purple-500 border-2 rounded-3xl font-bold">Connect wallet</button>
             </div>
 
-            <div className="">
-              <h3 className="font-bold text-gray-400 text-4xl">Welcome to MochiDAO</h3>
-              <h1 className="text-3xl font-bold pt-2 colour">Your new Hub for all Moloch DAO activity</h1>
-              <h3 className="mt-2">Interact with DAOs or Summon a new one</h3>
-              <h3 className="mt-2">Get activity feeds from all your DAOs</h3>
-              <h3 className="mt-2">Easily switch between your DAOs</h3>
-             
-              
-              <button className="mt-10 p-3 w-40 bg-black text-white rounded-lg">Connect wallet</button>
+            <h1>FEATURED DAOS</h1>
+            <div className="grid grid-cols-1">
+                <div className="flex flex-col w-80 h-28 bg-white text-center mt-3">
+                    <img className="w-14 h-14 p-1 m-auto" src="/hot.png" alt="#" />
+                    <h1 className="">MetaCartel</h1>
+                    <p className="">The airport to web3</p>
+                </div>
+
+                <div className="flex flex-col w-80 h-28 bg-white text-center mt-3">
+                    <img className="w-14 h-14 m-auto" src="/tama.png" alt="#" />
+                    <h1>Meta Gamma Delta</h1>
+                    <p>Supporting women-led projects in Web3</p>
+                </div>
+
+                <div className="flex flex-col w-80 h-28 bg-white text-center mt-3">
+                    <img className="w-14 h-14 m-auto" src="/sword.png" alt="#" />
+                    <h1>RaidGuild</h1>
+                    <p>Collective of web3 product builders</p>
+                </div>
+
+                <div className="flex flex-col w-80 h-28 bg-white text-center mt-3">
+                    <img className="w-14 h-14 m-auto" src="cross.png" alt="#" />
+                    <h1>LexDAO</h1>
+                    <p>The Decentralised legal engineering guild</p>
+                </div>
             </div>
 
-            <div className=" mt-10 w-96 h-96 overflow-hidden">
-                <img src="/credit-card.svg" alt="#" />
-            </div>
+            
            
         </div>
     )

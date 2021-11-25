@@ -6,6 +6,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { AiFillTwitterCircle } from 'react-icons/ai';
+import { FaDiscord } from "react-icons/fa";
 import Welcome from './components/welcome';
 import Explore from './components/explore';
 import Summon from './components/summon';
@@ -26,13 +28,13 @@ function App() {
     setBorder3(false);
   }
 
-  function handleClickCryptobank() {
+  function handleClickSummon() {
     setBorder1(false);
     setBorder2(true);
     setBorder3(false);
   }
 
-  function handleClickExchange() {
+  function handleClickHelp() {
     setBorder1(false);
     setBorder2(false);
     setBorder3(true);
@@ -43,7 +45,7 @@ function App() {
   return (
    <Router>
      <div className="grid grid-cols-2">
-        <nav className="h-auto w-60 border-r-2 border-gray-300">
+        <nav className="h-auto w-60 border-r-2 border-gray-300 nav">
           <ul className="w-60 fixed h-auto">
             
             <li className="mb-5 p-7" ><img className="w-20 h-20" src="/mochi.png" alt="#"/><b>Mochi</b></li>
@@ -51,13 +53,16 @@ function App() {
               <Link to="/">Welcome</Link>
             </li>
             
-            <li onClick={handleClickExchange} id="nav-item-3" className={border3 ? "border-on font-bold text-gray-400 p-5 pl-7" : "border-off font-bold text-gray-400 p-5 pl-7"}>
+            <li onClick={handleClickSummon} id="nav-item-2" className={border2 ? "border-on font-bold text-gray-400 p-5 pl-7" : "border-off font-bold text-gray-400 p-5 pl-7"}>
               <Link to="/Summon">Summon</Link>
             </li>
-            <li onClick={handleClickExchange} id="nav-item-3" className={border3 ? "border-on font-bold text-gray-400 p-5 pl-7" : "border-off font-bold text-gray-400 p-5 pl-7"}>
+            <li onClick={handleClickHelp} id="nav-item-3" className={border3 ? "border-on font-bold text-gray-400 p-5 pl-7" : "border-off font-bold text-gray-400 p-5 pl-7"}>
               <Link to="/Help">Help</Link>
             </li>
-            
+            <div className="flex flex-row p-5 mt-40">
+            <AiFillTwitterCircle className="w-10 h-10 text-gray-400"/>
+            <FaDiscord className="w-10 h-10 text-gray-400"/>
+            </div>
           </ul>
         </nav>
 

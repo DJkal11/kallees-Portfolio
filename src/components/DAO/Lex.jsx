@@ -2,8 +2,8 @@ import React from "react";
 
 function Raid() {
     return (
-        <div className="h-screen transitionPage fixed">
-            <div className="grid grid-cols-2 mt-40">
+        <div className="h-screen transitionPage fixed text-center">
+            <div className=" mt-40">
             <img className="w-28 h-28 p-2 m-auto " src="/cross.png" alt="#" />
             <h1 className="text-3xl p-2"><b>LexDAO</b></h1>
             </div>
@@ -37,7 +37,7 @@ function Raid() {
             </div>
 
             <button className="border-2 border-gray-400-400 p-2 ml-5">View Bank</button>
-            <button className="bg-gray-400 border-2 border-gray-400 p-2 ml-2">View Proposals</button>
+            <button className="bg-gray-400 border-2 border-gray-400 p-2 ml-2 text-white">View Proposals</button>
            
         </div>
     )

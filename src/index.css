@@ -35,5 +35,21 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
 }
 
 .colour{
-  color: #81b75d;
+  background-color: #81b75d;
+}
+
+.nav {
+  background-color: #D1E8E4;
+}
+
+.DAO-item{
+  background-color: #C37B89;
+}
+
+.insight{
+  background-color: #EAE7C6;
+}
+
+.margin {
+  margin-left: -30rem;
 }

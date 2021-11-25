@@ -17,7 +17,7 @@ function SelectPage(event) {
        
         <div className="-ml-96 display h-full transitionPage">
             
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 h-auto">
             
             <div className="grid grid-cols-1">
                 

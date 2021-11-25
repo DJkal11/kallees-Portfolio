@@ -2,7 +2,7 @@ import React from "react";
 
 function Raid() {
     return (
-        <div className="h-screen transitionPage">
+        <div className="h-screen transitionPage fixed">
             <div className="grid grid-cols-2 mt-40">
             <img className="w-28 h-28 p-2 m-auto " src="/sword.png" alt="#" />
             <h1 className="text-3xl p-2"><b>Raid Guild</b></h1>

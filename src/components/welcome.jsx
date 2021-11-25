@@ -1,42 +1,78 @@
-import React from "react";
+import React, { useState } from "react";
+
+import MetaCartel from "./DAO/MetaCartel";
+import Raid from "./DAO/Raid";
+import Lex from "./DAO/Lex";
+import MetaGama from "./DAO/Meta-Gamma-Delta";
 
 function Welcome() {
+ const [ page, setPage ] = useState("");   
+
+function SelectPage(event) {
+ const name = event.target.id
+ setPage(name);
+}
+
     return (
+       
         <div className="-ml-96 display h-full transitionPage">
+            
             <div className="grid grid-cols-2">
-            <h1 className="mt-10">Hub</h1>
-            </div>
-
-            <h1>FEATURED DAOS</h1>
+            
             <div className="grid grid-cols-1">
-                <div className="flex flex-col w-80 h-28 bg-white text-center mt-3">
-                    <img className="w-14 h-14 p-1 m-auto" src="/hot.png" alt="#" />
-                    <h1 className="">MetaCartel</h1>
-                    <p className="">The airport to web3</p>
+                
+                <div className="flex flex-col w-80 h-auto text-center mt-3 shadow-2xl rounded-lg">
+                    
+                    <img  className="w-28 h-28 p-2 m-auto" src="/hot.png" alt="#" />
+                    <h1 className="p-2">MetaCartel</h1>
+                    <p className="pb-2">The airport to web3</p>
+                    <button onClick={SelectPage} id="MetaCartel" className="w-full p-2 bg-blue-400 rounded-lg">View</button>
+                </div>
+                
+
+                <div className="flex flex-col w-80 h-auto bg-white text-center mt-3 shadow-2xl rounded-lg">
+                    <img className="w-28 h-28 p-2 m-auto" src="/tama.png" alt="#" />
+                    <h1 className="p-2">Meta Gamma Delta</h1>
+                    <p className="pb-2">Supporting women-led projects in Web3</p>
+                    <button onClick={SelectPage} id="MetaGama" className="w-full p-2 bg-blue-400 rounded-lg">View</button>
                 </div>
 
-                <div className="flex flex-col w-80 h-28 bg-white text-center mt-3">
-                    <img className="w-14 h-14 m-auto" src="/tama.png" alt="#" />
-                    <h1>Meta Gamma Delta</h1>
-                    <p>Supporting women-led projects in Web3</p>
+                <div className="flex flex-col w-80 h-auto bg-white text-center mt-3 shadow-2xl rounded-lg">
+                    <img className="w-28 h-28 p-2 m-auto" src="/sword.png" alt="#" />
+                    <h1 className="p-2">RaidGuild</h1>
+                    <p className="pb-2">Collective of web3 product builders</p>
+                    <button onClick={SelectPage} id="Raid" className="w-full p-2 bg-blue-400 rounded-lg">View</button>
                 </div>
 
-                <div className="flex flex-col w-80 h-28 bg-white text-center mt-3">
-                    <img className="w-14 h-14 m-auto" src="/sword.png" alt="#" />
-                    <h1>RaidGuild</h1>
-                    <p>Collective of web3 product builders</p>
+                <div  className="flex flex-col w-80 h-auto bg-white text-center mt-3 shadow-2xl rounded-lg">
+                    <img className="w-28 h-28 p-2 m-auto" src="cross.png" alt="#" />
+                    <h1 className="p-2">LexDAO</h1>
+                    <p className="pb-2">The Decentralised legal engineering guild</p>
+                    <button onClick={SelectPage} id="Lex" className="w-full p-2 bg-blue-400 rounded-lg">View</button>
                 </div>
+            </div>
+             
+             <div className="border-l-2 border-gray-500">
+              {page === "MetaCartel" &&
+                <MetaCartel/>
+              }
+               {page === "MetaGama" &&
+                <MetaGama/>
+              }
+               {page === "Raid" &&
+                <Raid/>
+              }
+               {page === "Lex" &&
+                <Lex/>
+              }
+             </div>
 
-                <div className="flex flex-col w-80 h-28 bg-white text-center mt-3">
-                    <img className="w-14 h-14 m-auto" src="cross.png" alt="#" />
-                    <h1>LexDAO</h1>
-                    <p>The Decentralised legal engineering guild</p>
-                </div>
             </div>
 
             
            
         </div>
+        
     )
 }
 

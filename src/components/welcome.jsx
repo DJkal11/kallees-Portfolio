@@ -10,7 +10,7 @@ function Welcome() {
 
             <div className="">
               <h3 className="font-bold text-gray-400 text-4xl">Welcome to MochiDAO</h3>
-              <h1 className="text-3xl text-purple-500 font-bold pt-2">Your new Hub for all Moloch DAO activity</h1>
+              <h1 className="text-3xl font-bold pt-2 colour">Your new Hub for all Moloch DAO activity</h1>
               <h3 className="mt-2">Interact with DAOs or Summon a new one</h3>
               <h3 className="mt-2">Get activity feeds from all your DAOs</h3>
               <h3 className="mt-2">Easily switch between your DAOs</h3>

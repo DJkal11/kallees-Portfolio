@@ -11,8 +11,8 @@
 }
 
 .display {
-  background: rgb(184,139,246);
-  background: linear-gradient(267deg, rgba(184,139,246,1) 0%, rgba(255,255,255,1) 57%);
+  background: rgb(137,242,176);
+background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 100%);
   
 }
 
@@ -35,5 +35,5 @@
 }
 
 .colour{
-  color: #d9f1db;
+  color: #81b75d;
 }

@@ -19,7 +19,7 @@ function SelectPage(event) {
             
             <div className="grid grid-cols-2 h-auto ">
             
-            <div className="grid grid-cols-1 DAO-item">
+            <div className="transitionPage grid grid-cols-1 DAO-item">
                 
                 <div className="flex flex-col w-96 h-auto bg-white text-center mt-3 shadow-2xl m-auto rounded-lg">
                     

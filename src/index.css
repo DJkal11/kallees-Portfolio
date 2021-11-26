@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+
 .float{
   float: right;
 }
@@ -29,7 +31,7 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
 
 .transitionPage {
   animation-name: fadeInUp;
-  animation-duration: 0.25s;
+  animation-duration: 0.5s;
   transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
@@ -45,6 +47,24 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
     transform: none;
   }
 }
+
+.transitionProposal {
+  animation-name: fadeInRight;
+  animation-duration: 0.5s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInRight {
+  0% {
+     opacity: 0;
+     transform: translateX(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+} 
 
 .colour{
   background-color: #81b75d;
@@ -64,5 +84,24 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
 
 .margin {
   margin-left: -30rem;
+}
+
+.font {
+  font-family: 'Jura', sans-serif;
+}
+
+.loader {
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 

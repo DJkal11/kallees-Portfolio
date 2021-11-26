@@ -47,11 +47,11 @@ function App() {
 
   return (
    <Router>
-     <div className="grid grid-cols-2 font">
-        <nav className="h-auto w-60 border-r-2 border-gray-300 nav">
-          <ul className="w-60 fixed h-auto">
+     <div className="grid grid-cols-2 font app">
+        <nav className="h-auto w-60 border-r-2 border-gray-300 nav nav-mobile">
+          <ul className="w-60 fixed h-auto nav-mobile">
             
-            <Link to="/"><li className="mb-5 p-7" ><img className="w-20 h-20" src="/mochi.png" alt="#"/><b>Mochi</b></li></Link>
+            <Link to="/"><li className="mb-5 p-7 nav-item" ><img className="w-20 h-20 mochi" src="/mochi.png" alt="#"/><b>Mochi</b></li></Link>
             <li onClick={handleClickWelcome} id="nav-item-1" className={border1 ? 'border-on font-bold text-gray-600 p-5 pl-7' : 'border-off font-bold text-gray-400 p-5 pl-7'}>
               <Link to="/">Welcome</Link>
             </li>

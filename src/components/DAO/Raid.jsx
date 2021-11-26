@@ -5,7 +5,7 @@ import {
 
 function Raid() {
     return (
-        <div className="transitionPage h-screen fixed text-center pl-20 pr-20 bg-green-500 text-white">
+        <div className="transitionPage h-screen fixed text-center pl-20 pr-20 bg-green-500 text-white DAO-mobile">
             <div className="text-center mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/sword.png" alt="#" />
             <h1 className="text-4xl p-2"><b>Raid Guild</b></h1>

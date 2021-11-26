@@ -5,7 +5,7 @@ import {
 
 function MetaCartel() {
     return (
-        <div className="transitionPage h-screen  fixed bg-green-500 text-white">
+        <div className="transitionPage h-screen fixed bg-green-500 text-white DAO-mobile ">
             <div className="text-center mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/hot.png" alt="#" />
             <h1 className="text-4xl p-2"><b>MetaCartel xDai</b></h1>
@@ -40,7 +40,7 @@ function MetaCartel() {
             </div>
             <div className="text-center">
             <button className="hover:bg-white hover:text-black border-2 border-white p-2 ml-5 rounded-lg">View Bank</button>
-            <button className="hover:bg-purple-500 bg-purple-400 border-2 border-purple-400 p-2 ml-2 rounded-lg text-white"><Link to="/MetaCartelProposal">View Proposals</Link></button>
+            <Link to="/MetaCartelProposal"><button className="hover:bg-purple-500 bg-purple-400 border-2 border-purple-400 p-2 ml-2 rounded-lg text-white">View Proposals</button></Link>
             </div>
         </div>
     )

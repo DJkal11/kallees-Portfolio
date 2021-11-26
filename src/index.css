@@ -105,3 +105,79 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
   100% { transform: rotate(360deg); }
 }
 
+
+@media (max-width: 600px) {
+
+  .margin-mobile {
+    margin-left: 0rem;
+  }
+
+  .welcome {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .welcome-DAO-mobile {
+   background-color: white;
+  }
+
+  .DAO-mobile {
+    position: static;
+  }
+
+  .height-mobile{
+    height: auto;
+  }
+
+  .nav-mobile{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    row-gap: 150px;
+    z-index: 3;
+    border-right: 0px white;
+  }
+
+  .mochi {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav-item {
+    padding: 5px;
+
+  }
+
+  .app{
+    
+    display: grid;
+    grid-template-columns: auto;
+    
+  }
+
+
+ .summon-title{
+  margin-top: 40px;
+  padding: 10px;
+ }
+
+  .summon-mobile-image{
+    width: 100vw;
+    height: 100vh;
+   
+  }
+
+  .summon-screen-height{
+    height: 100vh;
+  }
+
+ 
+
+}
+
+

@@ -5,12 +5,12 @@ import {
 function MetaGamaProposal() {
 
     return (
-        <div className=" transitionProposal max-w-screen-2xl h-auto bg-red-400 margin text-white" style={{backgroundImage: "url(https://images.unsplash.com/photo-1629984164142-21c2039de926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)", backgroundSize: "cover"}}>
+        <div className=" transitionProposal max-w-screen-2xl h-screen height-mobile margin-mobile bg-red-400 margin text-white" style={{backgroundImage: "url(https://images.unsplash.com/photo-1629984164142-21c2039de926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)", backgroundSize: "cover"}}>
             <div className="flex flex-row">
             <h1 className="text-4xl p-10 pb-2">Proposals</h1>
             <Link to="/"><button className="hover:bg-green-600 bg-green-500 rounded-2xl mt-10 text-white p-2 w-40">Back</button></Link>
             </div>
-            <div className="grid grid-cols-2 ">
+            <div className="grid grid-cols-2 welcome">
              <div className="p-10 pb-2 pt-2 mt-5">
              <label className="" for="proposals">Filter By: </label>
                  <select className="p-1 rounded-lg text-black" placeholder="Funding Proposals" name="Proposals" id="proposals">

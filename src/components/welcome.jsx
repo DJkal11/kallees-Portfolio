@@ -26,7 +26,7 @@ function SelectPage(event) {
                     <img  className="w-28 h-28 p-2 m-auto" src="/hot.png" alt="#" />
                     <h1 className="p-2">MetaCartel</h1>
                     <p className="pb-2">The airport to web3</p>
-                    <button onClick={SelectPage} id="MetaCartel" className="w-full p-2 bg-blue-400 rounded-lg">View</button>
+                    <button onClick={SelectPage} id="MetaCartel" className="hover:bg-blue-600 text-white w-full p-2 bg-blue-400 rounded-lg">View</button>
                 </div>
                 
 
@@ -34,21 +34,21 @@ function SelectPage(event) {
                     <img className="w-28 h-28 p-2 m-auto" src="/tama.png" alt="#" />
                     <h1 className="p-2">Meta Gamma Delta</h1>
                     <p className="pb-2">Supporting women-led projects in Web3</p>
-                    <button onClick={SelectPage} id="MetaGama" className="w-full p-2 bg-blue-400 rounded-lg">View</button>
+                    <button onClick={SelectPage} id="MetaGama" className="hover:bg-blue-600 text-white w-full p-2 bg-blue-400 rounded-lg">View</button>
                 </div>
 
                 <div className="flex flex-col w-96 h-auto bg-white text-center mt-3 shadow-2xl m-auto rounded-lg">
                     <img className="w-28 h-28 p-2 m-auto" src="/sword.png" alt="#" />
                     <h1 className="p-2">RaidGuild</h1>
                     <p className="pb-2">Collective of web3 product builders</p>
-                    <button onClick={SelectPage} id="Raid" className="w-full p-2 bg-blue-400 rounded-lg">View</button>
+                    <button onClick={SelectPage} id="Raid" className="hover:bg-blue-600 text-white w-full p-2 bg-blue-400 rounded-lg">View</button>
                 </div>
 
                 <div  className="flex flex-col w-96 h-auto bg-white text-center mt-3 shadow-2xl m-auto rounded-lg">
                     <img className="w-28 h-28 p-2 m-auto" src="cross.png" alt="#" />
                     <h1 className="p-2">LexDAO</h1>
                     <p className="pb-2">The Decentralised legal engineering guild</p>
-                    <button onClick={SelectPage} id="Lex" className="w-full p-2 bg-blue-400 rounded-lg">View</button>
+                    <button onClick={SelectPage} id="Lex" className="hover:bg-blue-600 text-white w-full p-2 bg-blue-400 rounded-lg">View</button>
                 </div>
             </div>
              

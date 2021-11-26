@@ -34,6 +34,18 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
   animation-fill-mode: both;
 }
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .colour{
   background-color: #81b75d;
 }

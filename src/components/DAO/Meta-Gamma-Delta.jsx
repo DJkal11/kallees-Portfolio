@@ -5,8 +5,8 @@ import {
 
 function MetaGama() {
     return (
-        <div className="transitionPage">
-        <div className="h-screen fixed text-center bg-green-500 text-white">
+        
+        <div className="transitionPage h-screen fixed text-center bg-green-500 text-white">
             <div className=" mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/tama.png" alt="#" />
             <h1 className="text-4xl p-2"><b>Meta Gamma Delta</b></h1>
@@ -44,7 +44,7 @@ function MetaGama() {
             <Link to="/MetaGamaProposal"><button className="hover:bg-yellow-500 bg-yellow-400 border-2 border-yellow-400 rounded-lg p-2 ml-2 text-white">View Proposals</button></Link>
            
         </div>
-        </div>
+       
     )
 }
 

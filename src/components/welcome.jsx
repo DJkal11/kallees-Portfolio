@@ -15,7 +15,7 @@ function SelectPage(event) {
 
     return (
        
-        <div className="margin h-full transitionPage ">
+        <div className="margin h-full">
             
             <div className="grid grid-cols-2 h-auto ">
             
@@ -52,12 +52,12 @@ function SelectPage(event) {
                 </div>
             </div>
              
-             <div className="border-l-2 border-gray-500">
+             <div className="border-l-2 border-gray-500 bg-green-500">
               {page === "MetaCartel" &&
                 <MetaCartel/> 
               }
                {page === "MetaGama" &&
-                <MetaGama className="transitionPage"/>
+                <MetaGama />
               }
                {page === "Raid" &&
                 <Raid/>

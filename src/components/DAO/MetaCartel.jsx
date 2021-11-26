@@ -5,7 +5,7 @@ import {
 
 function MetaCartel() {
     return (
-        <div className="h-screen transitionPage fixed bg-green-500 text-white">
+        <div className="transitionPage h-screen  fixed bg-green-500 text-white">
             <div className="text-center mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/hot.png" alt="#" />
             <h1 className="text-4xl p-2"><b>MetaCartel xDai</b></h1>

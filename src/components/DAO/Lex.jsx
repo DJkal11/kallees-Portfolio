@@ -5,7 +5,7 @@ import {
 
 function Raid() {
     return (
-        <div className="h-screen transitionPage fixed text-center bg-green-500 text-white">
+        <div className="transitionPage h-screen fixed text-center bg-green-500 text-white">
             <div className=" mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/cross.png" alt="#" />
             <h1 className="text-4xl p-2"><b>LexDAO</b></h1>

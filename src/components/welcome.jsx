@@ -57,7 +57,7 @@ function SelectPage(event) {
                 <MetaCartel/> 
               }
                {page === "MetaGama" &&
-                <MetaGama/>
+                <MetaGama className="transitionPage"/>
               }
                {page === "Raid" &&
                 <Raid/>

@@ -39,8 +39,8 @@ function Raid() {
                 <p>3 Tokens</p>
             </div>
 
-            <button className="border-2 border-gray-400-400 p-2 ml-5">View Bank</button>
-            <Link to="/LexProposal"><button className="bg-gray-400 border-2 border-gray-400 p-2 ml-2 text-white">View Proposals</button></Link>
+            <button className="hover:bg-white hover:text-black border-2 border-white rounded-lg p-2 ml-5">View Bank</button>
+            <Link to="/LexProposal"><button className="hover:bg-gray-500 bg-gray-400 border-2 border-gray-400 rounded-lg p-2 ml-2 text-white">View Proposals</button></Link>
            
         </div>
     )

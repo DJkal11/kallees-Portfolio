@@ -39,8 +39,8 @@ function MetaCartel() {
                 <p>4 Tokens</p>
             </div>
             <div className="text-center">
-            <button className="border-2 border-purple-400 p-2 ml-5">View Bank</button>
-            <button className="bg-purple-400 border-2 border-purple-400 p-2 ml-2 text-white"><Link to="/MetaCartelProposal">View Proposals</Link></button>
+            <button className="hover:bg-white hover:text-black border-2 border-white p-2 ml-5 rounded-lg">View Bank</button>
+            <button className="hover:bg-purple-500 bg-purple-400 border-2 border-purple-400 p-2 ml-2 rounded-lg text-white"><Link to="/MetaCartelProposal">View Proposals</Link></button>
             </div>
         </div>
     )

@@ -12,6 +12,7 @@ import Welcome from './components/welcome';
 import Explore from './components/explore';
 import Summon from './components/summon';
 import Help from './components/help';
+import MetaCartelProposal from './components/proposals/MetaCartel-proposal';
 import { useState } from 'react';
 
 
@@ -74,6 +75,8 @@ function App() {
           <Route path="/Summon" element={<Summon/>}/>
 
           <Route path="/Help" element={<Help/>}/>
+
+          <Route path="/MetaCartelProposal" element={<MetaCartelProposal/>}/>
            
         </Routes>
       </div>

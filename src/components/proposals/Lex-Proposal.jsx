@@ -2,10 +2,10 @@ import React from "react";
 import {
     Link
   } from "react-router-dom";
-function MetaCartelProposal() {
+function LexProposal() {
 
     return (
-        <div className="max-w-screen-2xl h-screen bg-red-400 margin text-white" style={{backgroundImage: "url(https://images.unsplash.com/photo-1629984164142-21c2039de926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)", backgroundSize: "cover"}}>
+        <div className="max-w-screen-2xl h-full bg-red-400 margin text-white" style={{backgroundImage: "url(https://images.unsplash.com/photo-1629984164142-21c2039de926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)", backgroundSize: "cover"}}>
             <div className="flex flex-row">
             <h1 className="text-4xl p-10 pb-2">Proposals</h1>
             <Link to="/"><button className="bg-green-500 rounded-2xl mt-10 text-white p-2 w-40">Back</button></Link>
@@ -34,9 +34,10 @@ function MetaCartelProposal() {
          
          <div className="p-10 pt-2">
              <div className="">
-               <h1 className="text-3xl">FUNDING PROPOSAL</h1>
-               <h2 className="text-2xl">0</h2>
-               <h3>Submitted Nov 24,2021</h3>
+               <h1 className="text-3xl">MEMBER PROPOSAL</h1>
+               <h1 className="text-2xl">Request to Join The FoundationsDAO</h1>
+               <h2 className="text-2xl">1 HAUS</h2>
+               <h3>Submitted Nov 18,2021</h3>
                <h1 className="text-2xl">Unsponsored</h1>
              </div>
          </div>
@@ -47,23 +48,26 @@ function MetaCartelProposal() {
 
          <div className="p-10 pt-2 shadow-2xl rounded-3xl">
              <div className="">
-               <h1 className="text-3xl">FUNDING PROPOSAL</h1>
-               <h2 className="text-2xl">Test</h2>
-               <h3>Submitted Nov 24,2021</h3>
-               <h1 className="text-2xl">PAYMENT REQUESTED</h1>
-               <h2>1 WXDAI</h2>
+               <h1 className="text-3xl">WHITELIST TOKEN PROPOSAL</h1>
+               <h1 className="text-2xl">psp</h1>
+               <h2 className="text-2xl">Token</h2>
+               <h2 className="text-2xl">0x5530...dae7</h2>
+               <h3>Submitted Nov 18,2021</h3>
+               <h1 className="text-2xl">Unsponsored</h1>
+               
              </div>
          </div>
 
         </div>
 
-        <div className=" bg-pink-500 w-96 m-10 mb-5 mr-0 rounded-3xl">
+        <div className="shadow-2xl bg-pink-500 w-96 m-10 mb-5 mr-0 rounded-3xl">
 
-      <div className="p-10 pt-2 shadow-2xl rounded-3xl">
+      <div className="p-10 pt-2">
       <div className="">
-      <h1 className="text-3xl">FUNDING PROPOSAL</h1>
-      <h2 className="text-2xl">Request to Join TheFEATURED DAOS 请求加入 FEATURED DAOS</h2>
-      <h3>Submitted Nov 24,2021</h3>
+      <h1 className="text-3xl">MEMBER PROPOSAL</h1>
+      <h2 className="text-2xl">New Member: Justin Ho</h2>
+      <h2 className="text-2xl">Link: <a href="#">twitter.com/imjustinho</a></h2>
+      <h3>Submitted Nov 19,2021</h3>
       <h1 className="text-2xl">Unsponsored</h1>
      </div>
      </div>
@@ -74,9 +78,10 @@ function MetaCartelProposal() {
          
          <div className="p-10 pt-2">
              <div className="">
-               <h1 className="text-3xl">FUNDING PROPOSAL</h1>
-               <h2 className="text-2xl">0</h2>
-               <h3>Submitted Nov 24,2021</h3>
+               <h1 className="text-3xl">MEMBER PROPOSAL</h1>
+               <h2 className="text-2xl">Request Shares For Tokens</h2>
+               <h2 className="text-2xl">1 HAUS</h2>
+               <h3>Submitted Nov 20,2021</h3>
                <h1 className="text-2xl">Unsponsored</h1>
              </div>
          </div>
@@ -90,4 +95,4 @@ function MetaCartelProposal() {
     )
 }
 
-export default MetaCartelProposal;
+export default LexProposal;

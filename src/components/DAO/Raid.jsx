@@ -1,14 +1,17 @@
 import React from "react";
+import {
+    Link
+  } from "react-router-dom";
 
 function Raid() {
     return (
-        <div className="h-screen transitionPage fixed text-center ml-20">
+        <div className="h-screen transitionPage fixed text-center pl-20 pr-20 bg-green-500 text-white">
             <div className="text-center mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/sword.png" alt="#" />
-            <h1 className="text-3xl p-2"><b>Raid Guild</b></h1>
+            <h1 className="text-4xl p-2"><b>Raid Guild</b></h1>
             </div>
 
-            <div className="text-2xl p-4 text-center">
+            <div className="text-3xl p-4 text-center">
              <h1 className="">slaying your web3 product demons</h1>
             </div>
 
@@ -37,7 +40,7 @@ function Raid() {
             </div>
             <div className="text-center">
             <button className="border-2 border-red-400 p-2 ml-5">View Bank</button>
-            <button className="bg-red-400 border-2 border-red-400 p-2 ml-2 text-white">View Proposals</button>
+            <Link to="/RaidProposal"><button className="bg-red-400 border-2 border-red-400 p-2 ml-2 text-white">View Proposals</button></Link>
             </div>
         </div>
     )

@@ -13,6 +13,9 @@ import Explore from './components/explore';
 import Summon from './components/summon';
 import Help from './components/help';
 import MetaCartelProposal from './components/proposals/MetaCartel-proposal';
+import MetaGamaProposal from './components/proposals/Meta-Gama-Proposal';
+import RaidProposal from './components/proposals/Raid-Proposal';
+import LexProposal from './components/proposals/Lex-Proposal';
 import { useState } from 'react';
 
 
@@ -77,6 +80,12 @@ function App() {
           <Route path="/Help" element={<Help/>}/>
 
           <Route path="/MetaCartelProposal" element={<MetaCartelProposal/>}/>
+
+          <Route path="/MetaGamaProposal" element={<MetaGamaProposal/>}/>
+
+          <Route path="/RaidProposal" element={<RaidProposal/>}/>
+
+          <Route path="/LexProposal" element={<LexProposal/>}/>
            
         </Routes>
       </div>

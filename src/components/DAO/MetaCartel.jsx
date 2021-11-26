@@ -5,13 +5,13 @@ import {
 
 function MetaCartel() {
     return (
-        <div className="h-screen transitionPage fixed insight text-white">
+        <div className="h-screen transitionPage fixed bg-green-500 text-white">
             <div className="text-center mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/hot.png" alt="#" />
-            <h1 className="text-3xl p-2"><b>MetaCartel xDai</b></h1>
+            <h1 className="text-4xl p-2"><b>MetaCartel xDai</b></h1>
             </div>
 
-            <div className="text-2xl p-4 text-center">
+            <div className="text-3xl p-4 text-center">
              <h1>If you want to go fast, go alone. If you want to go far, go together.</h1>
             </div>
 

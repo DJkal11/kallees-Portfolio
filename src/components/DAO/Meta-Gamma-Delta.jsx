@@ -5,13 +5,13 @@ import {
 
 function MetaGama() {
     return (
-        <div className="h-screen transitionPage fixed text-center">
+        <div className="h-screen transitionPage fixed text-center bg-green-500 text-white">
             <div className=" mt-20">
             <img className="w-28 h-28 p-2 m-auto " src="/tama.png" alt="#" />
-            <h1 className="text-3xl p-2"><b>Meta Gamma Delta</b></h1>
+            <h1 className="text-4xl p-2"><b>Meta Gamma Delta</b></h1>
             </div>
 
-            <div className="text-2xl p-4">
+            <div className="text-3xl p-4">
              <h1>An inclusive and empowering society supporting women-led projects</h1>
             </div>
 
@@ -40,7 +40,7 @@ function MetaGama() {
             </div>
 
             <button className="border-2 border-yellow-400 p-2 ml-5">View Bank</button>
-            <button className="bg-yellow-400 border-2 border-yellow-400 p-2 ml-2 text-white">View Proposals</button>
+            <Link to="/MetaGamaProposal"><button className="bg-yellow-400 border-2 border-yellow-400 p-2 ml-2 text-white">View Proposals</button></Link>
            
         </div>
     )

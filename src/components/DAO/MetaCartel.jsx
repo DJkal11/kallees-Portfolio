@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function MetaCartel() {
   return (
-    <div className="transitionPage h-screen fixed insight text-white DAO-mobile ">
+    <div className="transitionPage h-screen fixed insight text-white DAO-mobile">
       <div className="text-center mt-20">
         <img className="w-28 h-28 p-2 m-auto " src="/hot.png" alt="#" />
         <h1 className="text-4xl p-2">

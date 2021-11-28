@@ -69,7 +69,7 @@ function App() {
           </ul>
         </nav>
 
-        
+        <div className="welcome-tablet">
         <Routes>
           <Route path="/" element={<Welcome/>}/>
           
@@ -88,6 +88,7 @@ function App() {
           <Route path="/LexProposal" element={<LexProposal/>}/>
            
         </Routes>
+        </div>
       </div>
 
    </Router>

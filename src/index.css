@@ -122,6 +122,15 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
     justify-content: center;
   }
 
+  .proposal-padding-mobile{
+   padding-left: 0;
+   padding-right: 0;
+  }
+
+  .proposal-heading-mobile{
+    flex-direction: column;
+  }
+
   .welcome-DAO-mobile {
    background-color: white;
   }
@@ -191,6 +200,128 @@ background: linear-gradient(267deg, rgba(137,242,176,1) 0%, rgba(255,255,255,1) 
   border-bottom: 0px solid black;
  }
 
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .margin-mobile {
+    margin-left: 0rem;
+  }
+
+  .welcome {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .nav-mobile{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    row-gap: 150px;
+    z-index: 3;
+    border-right: 0px white;
+  }
+
+  .mochi {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav-item {
+    padding: 5px;
+
+  }
+  .border-on{
+    border-bottom: 3px solid black;
+    border-right: 0px;
+   transition: .1s ease-out;
+   }
+  
+   .border-off{
+    transition: .2s ease-in;
+    border-bottom: 0px solid black;
+   }
+
+   .DAO-mobile {
+    position: static;
+  }
+
+ .app{
+    
+  display: grid;
+  grid-template-columns: auto;
+  
+}
+
+
+.summon-title{
+margin-top: 40px;
+padding: 10px;
+}
+
+.summon-mobile-image{
+  width: 100vw;
+  height: 100vh;
+ 
+}
+
+.summon-screen-height{
+  height: 100vh;
+}
+
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .nav-mobile{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    row-gap: 150px;
+    z-index: 3;
+    border-right: 0px white;
+    
+  }
+
+  .mochi {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav-item {
+    padding: 5px;
+
+  }
+  .border-on{
+    border-bottom: 3px solid black;
+    border-right: 0px;
+   transition: .1s ease-out;
+   }
+  
+   .border-off{
+    transition: .2s ease-in;
+    border-bottom: 0px solid black;
+   }
+
+   .welcome-tablet{
+     margin-top: 40px;
+   }
+
+   .proposal-padding-tablet{
+    padding-left: 70px;
+    padding-right: 40px;
+   }
+
+   .proposal-heading-tablet{
+     margin-top: 20px;
+   }
 }
 
 

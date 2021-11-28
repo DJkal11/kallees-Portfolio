@@ -17,8 +17,8 @@ function Welcome() {
   return (
     <div className="margin margin-mobile h-full">
       <div className="grid grid-cols-2 h-auto welcome">
-        <div className="transitionPage grid grid-cols-1 DAO-item welcome-DAO-mobile">
-          <div className="flex flex-col w-96 h-auto bg-white text-center mt-3 shadow-2xl m-auto rounded-lg">
+        <div className="transitionPage grid grid-cols-1 DAO-item welcome-DAO-mobile welcome-tablet">
+          <div className="flex flex-col w-96 h-auto bg-white text-center mt-5 mb-5 shadow-2xl m-auto rounded-lg">
             <img className="w-28 h-28 p-2 m-auto" src="/hot.png" alt="#" />
             <h1 className="p-2 font-bold">MetaCartel</h1>
             <p className="pb-2 font-bold">The airport to web3</p>
@@ -39,7 +39,7 @@ function Welcome() {
             </Link>
           </div>
 
-          <div className="flex flex-col w-96 h-auto bg-white text-center mt-3 shadow-2xl m-auto rounded-lg">
+          <div className="flex flex-col w-96 h-auto bg-white text-center mt-5 mb-5 shadow-2xl m-auto rounded-lg">
             <img className="w-28 h-28 p-2 m-auto" src="/tama.png" alt="#" />
             <h1 className="p-2 font-bold">Meta Gamma Delta</h1>
             <p className="pb-2 font-bold">
@@ -62,7 +62,7 @@ function Welcome() {
             </Link>
           </div>
 
-          <div className="flex flex-col w-96 h-auto bg-white text-center mt-3 shadow-2xl m-auto rounded-lg">
+          <div className="flex flex-col w-96 h-auto bg-white text-center mt-5 mb-5 shadow-2xl m-auto rounded-lg">
             <img className="w-28 h-28 p-2 m-auto" src="/sword.png" alt="#" />
             <h1 className="p-2 font-bold">RaidGuild</h1>
             <p className="pb-2 font-bold">
@@ -85,7 +85,7 @@ function Welcome() {
             </Link>
           </div>
 
-          <div className="flex flex-col w-96 h-auto bg-white text-center mt-3 shadow-2xl m-auto rounded-lg">
+          <div className="flex flex-col w-96 h-auto bg-white text-center mt-5 mb-5 shadow-2xl m-auto rounded-lg">
             <img className="w-28 h-28 p-2 m-auto" src="cross.png" alt="#" />
             <h1 className="p-2 font-bold">LexDAO</h1>
             <p className="pb-2 font-bold">

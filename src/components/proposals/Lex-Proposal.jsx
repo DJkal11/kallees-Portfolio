@@ -11,9 +11,9 @@ function LexProposal() {
         backgroundSize: "cover",
       }}
     >
-      <div className="flex flex-row">
+      <div className="flex flex-row proposal-heading-mobile proposal-heading-tablet">
       <Link to="/">
-          <button className="hover:bg-green-600 colour rounded-full mt-10 text-2xl text-white p-2 w-10 ml-2">
+          <button className="hover:bg-green-600 colour rounded-full mt-10 text-2xl text-white p-2 w-10 ml-8">
             <IoArrowBack/>
           </button>
         </Link>
@@ -45,7 +45,7 @@ function LexProposal() {
           </select>
         </div>
       </div>
-      <div className="grid grid-cols-2 welcome pl-44 pr-36">
+      <div className="grid grid-cols-2 welcome pl-44 pr-36 proposal-padding-mobile proposal-padding-tablet">
         
 
         <div className=" w-80 m-10 mb-7 mr-0 rounded-3xl colour text-white">

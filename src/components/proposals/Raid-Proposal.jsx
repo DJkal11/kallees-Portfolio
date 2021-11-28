@@ -12,9 +12,9 @@ function RaidProposal() {
         backgroundSize: "cover",
       }}
     >
-      <div className="flex flex-row">
+      <div className="flex flex-row proposal-heading-mobile proposal-heading-tablet">
       <Link to="/">
-          <button className="hover:bg-green-600 colour rounded-full mt-10 text-white p-2 w-10 text-2xl ml-2">
+          <button className="hover:bg-green-600 colour rounded-full mt-10 text-white p-2 w-10 text-2xl ml-8">
             <IoArrowBack/>
           </button>
         </Link>
@@ -45,7 +45,7 @@ function RaidProposal() {
           </select>
         </div>
       </div>
-      <div className="grid grid-cols-2 welcome pl-44 pr-36">
+      <div className="grid grid-cols-2 welcome pl-44 pr-36 proposal-padding-mobile proposal-padding-tablet">
         
 
         <div className="shadow-2xl w-80 m-10 mb-7 mr-0 rounded-3xl colour text-white">

@@ -12,7 +12,7 @@ function RaidProposal() {
         backgroundSize: "cover",
       }}
     >
-      <div className="flex flex-row proposal-heading-mobile proposal-heading-tablet">
+      <div className="flex flex-row proposal-heading-mobile ">
       <Link to="/">
           <button className="hover:bg-green-600 colour rounded-full mt-10 text-white p-2 w-10 text-2xl ml-8">
             <IoArrowBack/>
@@ -48,49 +48,46 @@ function RaidProposal() {
       <div className="grid grid-cols-2 welcome pl-44 pr-36 proposal-padding-mobile proposal-padding-tablet">
         
 
-        <div className="shadow-2xl w-80 m-10 mb-7 mr-0 rounded-3xl colour text-white">
-          <div className="p-10 pt-2">
+        <div className="shadow-2xl w-80 h-60 m-10 mb-7 mr-0 rounded-3xl colour text-white">
+          <div className="p-8">
             <div className="">
               <h1 className="text-3xl">FUNDING PROPOSAL</h1>
-              <h1 className="text-lg">submitted Member Proposal</h1>
-              <h2 className="text-lg">1 WXDAI</h2>
-              <h3>Submitted Nov 13,2021</h3>
-              <h1 className="text-2xl">Unsponsored</h1>
+              <h1 className="text-2xl">submitted Member Proposal</h1>
+              <h3 className="text-xl">Submitted Nov 13,2021</h3>
+              <h1 className="text-lg">Unsponsored</h1>
             </div>
           </div>
         </div>
 
-        <div className="w-80 m-10 mb-7 mr-0 rounded-3xl colour text-white">
-          <div className="p-10 pt-2 shadow-2xl rounded-3xl">
+        <div className="w-80 h-60 m-10 mb-7 mr-0 rounded-3xl colour text-white">
+          <div className="p-8">
             <div className="">
               <h1 className="text-3xl">FUNDING PROPOSAL</h1>
-              <h1 className="text-lg">Want to join the membership</h1>
-              <h2 className="text-lg">1 HAUS</h2>
-              <h3>Submitted Nov 13,2021</h3>
-              <h1 className="text-2xl">Unsponsored</h1>
+              <h1 className="text-2xl">Want to join the membership</h1>
+              <h3 className="text-xl">Submitted Nov 13,2021</h3>
+              <h1 className="text-lg">Unsponsored</h1>
             </div>
           </div>
         </div>
 
-        <div className="w-80 m-10 mb-7 mr-0 rounded-3xl colour text-white">
-          <div className="p-10 pt-2">
+        <div className="w-80 h-60 m-10 mb-7 mr-0 rounded-3xl colour text-white">
+          <div className="p-8">
             <div className="">
               <h1 className="text-3xl">FUNDING PROPOSAL</h1>
-              <h2 className="text-lg">We need to triple our contribution</h2>
-              <h3>Submitted Nov 13,2021</h3>
-              <h1 className="text-2xl">Unsponsored</h1>
+              <h2 className="text-2xl">We need to triple our contribution</h2>
+              <h3 className="text-xl">Submitted Nov 13,2021</h3>
+              <h1 className="text-lg">Unsponsored</h1>
             </div>
           </div>
         </div>
 
-        <div className="w-80 m-10 mb-7 mr-0 rounded-3xl colour text-white">
-          <div className="p-10 pt-2">
+        <div className="w-80 h-60 m-10 mb-7 mr-0 rounded-3xl colour text-white">
+          <div className="p-8">
             <div className="">
               <h1 className="text-3xl">MEMBER PROPOSAL</h1>
-              <h2 className="text-lg">Request to Join The FoundationsDAO</h2>
-              <h2 className="text-lg">0.008 HAUS</h2>
-              <h3>Submitted Nov 13,2021</h3>
-              <h1 className="text-2xl">Unsponsored</h1>
+              <h2 className="text-2xl">Request to Join The FoundationsDAO</h2>
+              <h3 className="text-xl">Submitted Nov 13,2021</h3>
+              <h1 className="text-lg">Unsponsored</h1>
             </div>
           </div>
         </div>

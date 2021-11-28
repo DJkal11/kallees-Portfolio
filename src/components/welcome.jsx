@@ -112,7 +112,7 @@ function Welcome() {
         <div
           title="DAO-company"
           id="DAO-company"
-          className="border-l-2 border-gray-500 insight smooth-scroll"
+          className="insight smooth-scroll"
         >
           {page === "MetaCartel" && <MetaCartel />}
           {page === "MetaGama" && <MetaGama />}

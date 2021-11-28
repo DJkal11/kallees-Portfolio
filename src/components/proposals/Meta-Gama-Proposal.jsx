@@ -4,7 +4,7 @@ import { IoArrowBack } from 'react-icons/io5';
 function MetaGamaProposal() {
   return (
     <div
-      className=" transitionProposal max-w-screen-2xl h-auto height-mobile margin-mobile bg-red-400 margin text-white"
+      className=" transitionProposal max-w-screen-2xl h-screen height-mobile margin-mobile bg-red-400 margin text-white"
       style={{
         backgroundImage:
           "url(https://images.unsplash.com/photo-1629984164142-21c2039de926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)",
@@ -48,44 +48,40 @@ function MetaGamaProposal() {
       <div className="grid grid-cols-2 welcome pl-44 pr-36 proposal-padding-mobile proposal-padding-tablet">
         
 
-        <div className="shadow-2xl w-80 m-10 mb-7 mr-0 rounded-3xl colour text-white">
-          <div className="p-10 pt-2">
+        <div className="shadow-2xl w-80 h-60 m-10 mb-7 mr-0 rounded-3xl colour text-white">
+          <div className="p-8">
             <div className="">
               <h1 className="text-3xl">MEMBER PROPOSAL</h1>
-              <h1 className="text-lg">
-                mantherthepanther#2373 / The Manther (Telegram)
+              <h1 className="text-2xl">
+                mantherthepanther#2373
               </h1>
-              <h2 className="text-lg">10 DAI</h2>
+              <h2 className="text-xl">10 DAI</h2>
               <h3>Submitted Nov 14,2021</h3>
-              <h1 className="text-2xl">Unsponsored</h1>
+              <h1 className="text-lg">Unsponsored</h1>
             </div>
           </div>
         </div>
 
-        <div className="w-80 m-10 mb-7 mr-0 h-auto rounded-3xl colour text-white">
-          <div className="p-10 pt-2 shadow-2xl rounded-3xl">
+        <div className="w-80 h-60 m-10 mb-7 mr-0 rounded-3xl colour text-white">
+          <div className="p-8">
             <div className="">
               <h1 className="text-3xl">MEMBER PROPOSAL</h1>
-              <h1 className="text-lg">interested in this project</h1>
-              <h2 className="text-lg">
-                interested in more women joining the cryptospace.
+              <h2 className="text-2xl">
+                Women joining cryptospace.
               </h2>
-              <h2 className="text-lg">20 WMATIC</h2>
-              <h3>Submitted Nov 24,2021</h3>
-              <h1 className="text-2xl">PAYMENT REQUESTED</h1>
-              <h2>1 WXDAI</h2>
+              <h3 className="text-xl">Submitted Nov 24,2021</h3>
+              <h1 className="text-lg">Payment Requested</h1>
             </div>
           </div>
         </div>
 
-        <div className="w-80 m-10 mb-7 mr-0 rounded-3xl colour text-white">
-          <div className="p-10 pt-2 shadow-2xl rounded-3xl">
+        <div className="w-80 h-60 m-10 mb-7 mr-0 rounded-3xl colour text-white">
+          <div className="p-8">
             <div className="">
               <h1 className="text-3xl">MEMBER PROPOSAL</h1>
-              <h2 className="text-lg">Membership Proposal</h2>
-              <h2 className="text-lg">0.01 WMATIC</h2>
-              <h3>Submitted Nov 24,2021</h3>
-              <h1 className="text-2xl">Unsponsored</h1>
+              <h2 className="text-2xl">Membership Proposal</h2>
+              <h3 className="text-xl">Submitted Nov 24,2021</h3>
+              <h1 className="text-lg">Unsponsored</h1>
             </div>
           </div>
         </div>
